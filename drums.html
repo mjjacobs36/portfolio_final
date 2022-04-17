@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independent Music Venues in Chicago</title>
+    <link rel="icon" href="images/israel-palacio-Y20JJ_ddy9M-unsplash.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5960b58adb.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2TW4WLBNW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-N2TW4WLBNW');
+    </script>
+</head>
+
+<body>
+    <a class = "skip" href="#main5">Skip to Main Content</a>
+    <header>
+        <nav>
+            <img class="nav_img" src="images/4168559_design_drum_drums_instrument_kit_icon.png" alt="drum icon">
+
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="small_med_venues.html">Small/Medium</a></li>
+                <li><a href="large_venues.html">Large</a></li>
+                <li><a href="specialty_venues.html">Specialty</a></li>
+                <li class="active"><a href="drums.html">Drum</a></li>
+            </ul>
+        </nav>
+        <div class="parallax">
+            <h1>Play some music</h1>
+        </div>
+    </header>
+
+    <main id="main5">
+        <div class="drum_info">
+            <h2>Drum Pad</h2>
+            <p>Click each pad or press the key in the pad to play the drums</p>
+        </div>
+        
+        <div class="drum_container">
+            <div class="sound" id="sound1" data-code="70">
+                <p>F</p>
+            </div>
+            <div class="sound" id="sound2" data-code="71">
+                <p>G</p>
+            </div>
+            <div class="sound" id="sound3" data-code="72">
+                <p>H</p>
+            </div>
+            <div class="sound" id="sound4" data-code="86"> 
+                <p>V</p>
+            </div>
+            <div class="sound" id="sound5" data-code="66">
+                <p>B</p>
+            </div>
+            <div class="sound" id="sound6" data-code="78">
+                <p>N</p>
+            </div>
+        </div>
+        <div class="parallax"></div>
+    </main>
+    
+</body>
+<footer>    
+    <h3>Independent Music In Chicago</h3>
+    <form
+    action="https://formspree.io/f/xwkyrkbk"
+    method="POST"
+  >
+        <fieldset>
+            <legend>Contact Form</legend>
+            <i class="fa-solid fa-circle-user"></i>
+            <label for="name_id">Your Name</label>
+            <input type="text" name="name" id="name_id" placeholder="Enter Your Name">
+            
+            <i class="fa-solid fa-at"></i>
+            <label for="email_id">Your Email</label>
+            <input type="text" name="email" id="email_id" placeholder="Enter Your Email">
+
+            <i class="fa-solid fa-comment"></i>
+            <label for="message_id">Message</label>
+            <textarea name="message" id="message_id"></textarea>
+            
+            <i class="fa-solid fa-circle-check"></i>
+            <label for="question_id">Subscribe for more info</label>
+            <input type="checkbox" name="question" id="question_id">
+
+            <input type="submit" value="Submit">
+        </fieldset>
+        
+        
+        <p>Project By Meredith Jacobs</p>
+    </footer>
+    <script src="javascript/drums.js"></script>
+</html>
