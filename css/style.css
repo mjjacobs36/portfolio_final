@@ -414,30 +414,25 @@ label, input, textarea {
 
 
 
-@media prefers-reduced-motion {
-    #logo {
-            animation: none;
+@media (prefers-reduced-motion) {
+
+    #flag, #flag_a {
+        animation: none;
+    }
+    
+    .parallax {
+        background-attachment: scroll;
+        }
+
+    .flip_card_inner {
+        transition: none;
         }
     
-        .parallax {
-            background-attachment: none;
-        }
-
-        .flip_card_inner {
-            transform: none;
-            transform-style: none;
-        }
-
-    .flip:hover .flip_card_inner, 
-    .flip:active .flip_card_inner,
-    .flip:focus .flip_card_inner {
+    .sound:active {
         transform: none;
+        transition: none;
     }
 
-
-    #flip_card:focus-within .flip_card_inner {
-    transform: none
-    }
 }
 
 
